@@ -17,5 +17,5 @@ class TestPinterest:
         search_box = self.driver.find_element("xpath",'//*[@id="searchBoxContainer"]/div/div/div[2]/input')
         search_box.send_keys("onepiece")
         search_box.send_keys(Keys.ENTER)
-        time.sleep(3    )
+        time.sleep(3)
         print("Closing")
